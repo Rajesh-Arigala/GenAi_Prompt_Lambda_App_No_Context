@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Career Advisor Chat</title>
+    <title>Raj Ai - Career Intelligence Assistant</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
     <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
@@ -15,8 +15,8 @@
             <div class="col-md-3 col-lg-2 d-md-block bg-light sidebar collapse">
                 <div class="position-sticky pt-3">
                     <div class="text-center mb-4">
-                        <h4>Career Advisor</h4>
-                        <p class="text-muted">Ask Raj about your career path</p>
+                        <h4>Raj Ai - Career Intelligence Assistant</h4>
+                        <p class="text-muted">Ask Raj about careers, skills, transitions, and professional growth</p>
                     </div>
                     <div class="d-grid gap-2">
                         <button id="clear-chat" class="btn btn-outline-danger">
@@ -27,7 +27,10 @@
                     <div class="mt-4">
                         <h6>About Raj</h6>
                         <p class="small text-muted">
-                            Raj is an AI career coach created by Rajesh Careers. He provides career advice and guidance to help you make informed decisions about your professional path.
+                            Raj is an Ai Career Intelligence Assistant developed by Rajesh Arigala for "Rajesh Careers" Platform. He demonstrates how conversational AI, prompt engineering, cloud-native architectures, and large language models can be combined to deliver personalized career guidance at scale.
+                        </p>
+                        <p class="small text-muted">
+                            Powered by Amazon Bedrock, AWS Lambda, API Gateway, Flask, and prompt engineering.
                         </p>
                     </div>
                 </div>
@@ -52,7 +55,7 @@
                     {% else %}
                         <div class="welcome-message">
                             <h3>Welcome to Rajesh Careers!</h3>
-                            <p>Hi, I'm Raj, your AI career coach. How can I help you with your career today?</p>
+                            <p>Hi, I'm Raj, a career intelligence assistant created by Rajesh Arigala. Ask me about careers, skills, transitions, and professional growth.</p>
                             <p>Try asking me questions like:</p>
                             <ul>
                                 <li>What careers are good for someone with a sociology degree?</li>
