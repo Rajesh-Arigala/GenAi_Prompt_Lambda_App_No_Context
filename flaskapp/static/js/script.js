@@ -111,8 +111,8 @@ document.addEventListener('DOMContentLoaded', function() {
             const welcomeMessage = document.createElement('div');
             welcomeMessage.classList.add('welcome-message');
             welcomeMessage.innerHTML = `
-                <h3>Welcome to Career Advisor!</h3>
-                <p>Hi, I'm Joe, your AI career coach. How can I help you with your career today?</p>
+                <h3>Welcome to Rajesh Careers!</h3>
+                <p>Hi, I'm Raj, your AI career coach. How can I help you with your career today?</p>
                 <p>Try asking me questions like:</p>
                 <ul>
                     <li>What careers are good for someone with a sociology degree?</li>
