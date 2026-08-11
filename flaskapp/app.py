@@ -92,7 +92,7 @@ def format_conversation_history(history):
         if role == 'user':
             formatted += f"Customer: {content}\n\n"
         elif role == 'assistant':
-            formatted += f"Joe: {content}\n\n"
+            formatted += f"Raj: {content}\n\n"
     
     return formatted
 
